@@ -1,0 +1,4 @@
+#Fri Jul 28 10:59:14 ICT 2017
+base.0=G\:\\fluke\\builkone\\oneapp\\platforms\\android\\build\\intermediates\\transforms\\dex\\F0\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=G\:\\fluke\\builkone\\oneapp\\platforms\\android\\build\\intermediates\\transforms\\dex\\F0\\debug\\folders\\1000\\1f\\main\\classes.dex

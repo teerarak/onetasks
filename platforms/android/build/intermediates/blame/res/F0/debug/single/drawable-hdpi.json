@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "G:\\fluke\\builkone\\oneapp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-hdpi\\background.png",
+        "source": "G:\\fluke\\builkone\\oneapp\\platforms\\android\\src\\main\\res\\drawable-hdpi\\background.png"
+    },
+    {
+        "merged": "G:\\fluke\\builkone\\oneapp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-hdpi\\logo.png",
+        "source": "G:\\fluke\\builkone\\oneapp\\platforms\\android\\src\\main\\res\\drawable-hdpi\\logo.png"
+    },
+    {
+        "merged": "G:\\fluke\\builkone\\oneapp\\platforms\\android\\build\\intermediates\\res\\merged\\F0\\debug\\drawable-hdpi\\icon.png",
+        "source": "G:\\fluke\\builkone\\oneapp\\platforms\\android\\src\\main\\res\\drawable-hdpi\\icon.png"
+    }
+]

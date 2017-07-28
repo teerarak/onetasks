@@ -1,0 +1,53 @@
+GridLayout {
+    margin-left: 30;
+    margin-right: 30;
+    margin-top: 50;
+    padding-bottom: 15;
+}
+.action-bar {
+    margin-left: 30;
+    margin-right: 30;
+    margin-top: 50;
+    margin-bottom: 50;
+    padding-bottom: 15;
+    background-color: #0095ca;
+}
+ActionBar {
+    background-color: #0095ca;
+}
+.next-button {
+    background-color: #0095ca;
+    color: white;
+    margin-top: 20;
+}
+textField {
+    font-size: 18;
+}
+.action-label {
+    color: #ffffff;
+    font-size: 24;
+    font-weight: bold;
+    font-family: roboto;
+}
+.dot {
+    font-size: 30;
+    padding-top: 10;
+    margin-bottom: 0;
+    margin-left: 0;
+}
+.body-label {
+    color: #0095ca;
+    font-size: 20;
+}
+.Signon-label {
+    font-size: 20;
+    color: #000000;
+}
+
+.select {
+    color: #0095ca;
+}
+
+.list {
+    font-size: 20;
+}

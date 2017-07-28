@@ -1,0 +1,18 @@
+<ScrollView sdkExampleTitle sdkToggleNavButton>
+    <ActionBar>
+        <StackLayout class="action-bar" orientation="horizontal"
+                     ios:horizontalAlignment="center"
+                     android:horizontalAlignment="center">
+            <Label text="OneApprove" class="action-label"></Label>
+        </StackLayout>
+    </ActionBar>
+    <StackLayout>
+        <GridLayout columns="auto, auto, auto" rows="100, auto, auto, auto">
+            <Label [text]="message" row="0" col="0" colSpan="3" textWrap="true" class="Signon-label" verticalAlignment="top"></Label>
+            <TextField hint="Username/Email" row="1" col="0" colSpan="3" keyboardType="email" autocorrect="false" autocapitalizationType="none"></TextField>
+            <TextField hint="Password" row="2" col="0" colSpan="3" secure="true"></TextField>
+
+            <Button text="LOGIN" (tap)="login()" class="next-button" row="3" col="2"></Button>
+        </GridLayout>
+    </StackLayout>
+</ScrollView>

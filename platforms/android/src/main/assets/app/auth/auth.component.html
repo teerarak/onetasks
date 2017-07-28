@@ -1,0 +1,20 @@
+<!-- >> scroll-view-verical-html -->
+<ScrollView sdkExampleTitle sdkToggleNavButton>
+    <ActionBar>
+        <StackLayout class="action-bar" orientation="horizontal"
+                     ios:horizontalAlignment="center"
+                     android:horizontalAlignment="center">
+            <Label text="OneApprove" class="action-label"></Label>
+        </StackLayout>
+    </ActionBar>
+
+        <GridLayout columns="6*,auto, 5*" rows="auto, auto, auto">
+            <Label text="Enter your Url" class="body-label" row="0" col="0"></Label>
+            <TextField hint="Url" [(ngModel)]="Url" row="1" col="0"> </TextField>
+            <Label text=" . " class="dot" row="1" col="1"></Label>
+            <Button [class]="cssClass" [text]="product" row="1" col="2" [nsRouterLink]="['/product', id]"></Button>
+            <Button text="NEXT" class="next-button" (tap)="login()" [nsRouterLink]="['/auth-detail', Url, product]" row="2" col="2"></Button>
+            <Button text="USERS" class="next-button" (tap)="login()" [nsRouterLink]="['/user']" row="2" col="0"></Button>
+        </GridLayout>
+
+</ScrollView>

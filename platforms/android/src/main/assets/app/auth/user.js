@@ -1,0 +1,9 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var user = (function () {
+    function user() {
+    }
+    return user;
+}());
+exports.user = user;
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidXNlci5qcyIsInNvdXJjZVJvb3QiOiIiLCJzb3VyY2VzIjpbInVzZXIudHMiXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6Ijs7QUFBQTtJQUFBO0lBWUEsQ0FBQztJQUFELFdBQUM7QUFBRCxDQUFDLEFBWkQsSUFZQztBQVpZLG9CQUFJIiwic291cmNlc0NvbnRlbnQiOlsiZXhwb3J0IGNsYXNzIHVzZXIge1xuICAgIGlkOiBudW1iZXI7XG4gICAgbmFtZTogc3RyaW5nO1xuICAgIHVzZXI6IFt7XG4gICAgICAgIGNvbXBhbnlfaWQ6IG51bWJlcixcclxuICAgICAgICBuYW1lOiBzdHJpbmcsXHJcbiAgICAgICAgZW1wbG95ZWU6IFt7XHJcbiAgICAgICAgICAgIGVtcF9pZDogbnVtYmVyLFxyXG4gICAgICAgICAgICBuYW1lOiBzdHJpbmcsXHJcbiAgICAgICAgICAgIHBhc3N3b3JkOiBzdHJpbmdcclxuICAgICAgICB9XVxyXG4gICAgfV07XG59Il19
