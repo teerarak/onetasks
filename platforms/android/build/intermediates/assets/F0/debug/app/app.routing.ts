@@ -9,6 +9,8 @@ import { AuthGuardService } from "./auth/auth-guard.service";
 import { AuthComponent } from "./auth/auth.component";
 import { AuthDetailComponent } from "./auth/auth-detail.component";
 import { ProductsComponent } from "./auth/product.component";
+import { UsersComponent } from "./auth/user.component";
+
 
 const routes: Routes = [
     { path: "", redirectTo: "/auth", pathMatch: "full" },
@@ -16,6 +18,7 @@ const routes: Routes = [
     { path: "auth/:name/:check", component: AuthComponent },
     { path: "auth-detail/:url/:product", component: AuthDetailComponent, canActivate: [AuthGuardService] },
     { path: "product/:id", component: ProductsComponent },
+    { path: "user", component: ProductsComponent },
 ];
 
 @NgModule({

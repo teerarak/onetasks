@@ -10,12 +10,10 @@ import { UserService } from "./user.service";
     templateUrl: "./user.component.html"
 })
 export class UsersComponent implements OnInit {
-    USERS: user[];
+
     constructor(
-        private user: UserService
+        
     ) { }
     ngOnInit(): void {
-        this.USERS = this.user.getUsers();
-        console.log(this.USERS);
     }
 }

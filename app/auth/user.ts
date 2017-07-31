@@ -1,7 +1,7 @@
 export class user {
     id: number;
     name: string;
-    user: [{
+    company: [{
         company_id: number,
         name: string,
         employee: [{

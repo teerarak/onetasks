@@ -3,6 +3,8 @@ import { ActivatedRoute } from "@angular/router";
 import * as dialogs from "ui/dialogs";
 
 import { AuthGuardService } from './auth-guard.service';
+import { UserService } from "./user.service";
+import { user } from "./user";
 
 @Component({
     selector: "OneApprove-Auth",
@@ -15,9 +17,11 @@ export class AuthComponent implements OnInit {
     id = 1;
     cssClass: string = "default";
     Url = "";
+    USERS: user[];
     constructor (
         private route: ActivatedRoute,
-        private authGuardService: AuthGuardService
+        private authGuardService: AuthGuardService,
+        private user: UserService
     ) { }
 
     ngOnInit (): void {
@@ -27,13 +31,9 @@ export class AuthComponent implements OnInit {
         }
     }
     login() {
-        //this.user.getUsers().forEach(function (element) {
-        //    console.log(element);
-        //});
         if (this.Url + "." + this.product == "fluke.on.lk") {
             this.authGuardService.isLoggedIn = !this.authGuardService.isLoggedIn
-            console.log(this.Url + " . " + this.product + " " + this.authGuardService.isLoggedIn);
         }
-        
+        this.USERS = this.user.getUsers();
     }
 }

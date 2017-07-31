@@ -10,6 +10,8 @@ G:\fluke\builkone\oneapp\platforms\android\src\main\assets\app\auth\auth.compone
 G:\fluke\builkone\oneapp\platforms\android\src\main\assets\app\auth\product.component.js
 G:\fluke\builkone\oneapp\platforms\android\src\main\assets\app\auth\product.js
 G:\fluke\builkone\oneapp\platforms\android\src\main\assets\app\auth\product.service.js
+G:\fluke\builkone\oneapp\platforms\android\src\main\assets\app\auth\user.component.js
+G:\fluke\builkone\oneapp\platforms\android\src\main\assets\app\auth\user.js
 G:\fluke\builkone\oneapp\platforms\android\src\main\assets\app\auth\user.service.js
 G:\fluke\builkone\oneapp\platforms\android\src\main\assets\app\tns_modules\nativescript-angular\animations.js
 G:\fluke\builkone\oneapp\platforms\android\src\main\assets\app\tns_modules\nativescript-angular\collection-facade.js

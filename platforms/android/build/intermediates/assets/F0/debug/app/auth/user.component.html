@@ -1,0 +1,16 @@
+<ActionBar>
+    <StackLayout class="action-bar" orientation="horizontal"
+                 ios:horizontalAlignment="center"
+                 android:horizontalAlignment="center">
+        <Label text="OneApprove" class="action-label"></Label>
+    </StackLayout>
+</ActionBar>
+<StackLayout class="page" *ngFor="let user of USERS">
+        <Label [text]="user.name" class="h1"></Label>
+    <StackLayout class="page" *ngFor="let user2 of user.company">
+        <Label [text]="user2.name" class="h2"></Label>
+        <StackLayout class="page" *ngFor="let user3 of user2.employee">
+            <Label [text]="user3.name" class="h3"></Label>
+        </StackLayout>
+    </StackLayout>
+</StackLayout>

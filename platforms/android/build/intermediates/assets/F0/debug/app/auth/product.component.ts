@@ -22,8 +22,6 @@ export class ProductsComponent implements OnInit {
     }
 
     onSetupItemView(args: SetupItemViewArgs) {
-        console.log(args.index);
-        console.log("id = " + this.id);
         args.view.context.select = (args.index + 1 == this.id);
     }
 }

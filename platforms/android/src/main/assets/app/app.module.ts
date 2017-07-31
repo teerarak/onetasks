@@ -9,14 +9,13 @@ import * as scrollViewModule from "tns-core-modules/ui/scroll-view";
 //service
 import { ProductService } from "./auth/product.service";
 import { AuthGuardService } from "./auth/auth-guard.service";
-
+import { UserService } from "./auth/user.service";
 
 //component
 import { AppComponent } from "./app.component";
 import { AuthComponent } from "./auth/auth.component";
 import { AuthDetailComponent } from "./auth/auth-detail.component";
 import { ProductsComponent } from "./auth/product.component";
-import { UsersComponent } from "./auth/user.component";
 
 @NgModule({
     bootstrap: [
@@ -32,12 +31,12 @@ import { UsersComponent } from "./auth/user.component";
         AppComponent,
         AuthComponent,
         AuthDetailComponent,
-        ProductsComponent,
-        UsersComponent
+        ProductsComponent
     ],
     providers: [
+        AuthGuardService,
         ProductService,
-        AuthGuardService
+        UserService
     ],
     schemas: [
         NO_ERRORS_SCHEMA
